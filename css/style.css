@@ -172,7 +172,8 @@ body{
   background-position: left  center;
 }
 .statistics-right {
-
+  padding-right: 24px;
+  padding-left: 20px;
   background-image: url(../img/glass.svg);
   background-repeat: no-repeat;
   background-size: 16px 16px;
