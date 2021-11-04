@@ -1,0 +1,230 @@
+
+html{
+  box-sizing: border-box;
+  height: 100%;
+  scroll-behavior: smooth;
+}
+
+body{
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  font-family: "Roboto Condensed", "Arial", sans-serif;
+  font-weight: 400;
+  padding: 0;
+  margin: 0;
+  font-size: 16px;
+  line-height: 1.5;
+  background-color: #fff;
+  color: #222;
+}
+
+
+
+
+/* MAIN-CONTENT */
+.main-content {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+}
+.site-container {
+  display: flex;
+  flex-grow: 1 ;
+  width: 100%;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.section-left-wrapper {
+  width: 600px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(../img/background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center bottom;
+}
+.header-wrapper {
+  width: 285px;
+}
+.site-header {
+  margin-top: 0;
+  text-transform: uppercase;
+  color: #fff;
+  font-family: "Bebas Neue",  "Arial", sans-serif;
+  font-weight: 400;
+  margin-bottom: 24px;
+  font-size: 24px;
+  line-height: normal;
+  letter-spacing: 2px;
+}
+.hero-link {
+  display: inline-block;
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-family: "Bebas Neue",  "Arial", sans-serif;
+  background-color: #1e90ff;
+}
+
+.hero-link:hover{
+  background-color: rgba(30, 144, 255, 0.8);
+}
+
+.hero-link:active{
+  background-color: rgba(24, 67, 109, 0.6);
+}
+
+
+.hero-link-inner {
+  font-size: 14px;
+  display: flex;
+  padding: 12px 24px 12px 56px;
+  background-image: url(../img/star.svg);
+  background-repeat: no-repeat;
+  background-size: 20px;
+  background-position: 24px 14px;
+  border-radius: 4px;
+}
+
+
+
+/* a-lot-of-videos */
+
+.section-right-wrapper {
+  width: 492px;
+  margin: 54px 54px auto 54px;
+
+}
+.new-videos {
+  margin: 0 0 24px 0;
+  font-family: "Bebas Neue",  "Arial", sans-serif;
+  font-size: 24px;
+  line-height: 29px;
+  letter-spacing: 2px;
+  color: #222222;
+}
+.hr-line {
+  width: 492px;
+  border: 1px solid #999999;
+  margin-bottom: 24px;
+}
+.alotof-videos-list {
+  padding: 0 ;
+  margin-bottom: 23px;
+
+}
+.alotof-videos-item {
+  list-style: none;
+
+}
+.videos-wrapper {
+  display: flex;
+  margin-bottom: 10px;
+}
+.item-latest-videos-img {
+  border-radius: 4px;
+}
+.header-videos {
+  margin-left: 16px;
+  padding: 0;
+
+}
+.name-videos {
+  margin: 0;
+  padding: 0;
+
+}
+.item-latest-videos-link {
+  font-family: "Bebas Neue",  "Arial", sans-serif;
+  font-size: 18px;
+  line-height: 22px;
+  letter-spacing: 2px;
+  color: #222222;
+  font-weight: 400;
+  text-decoration: none;
+}
+
+.item-latest-videos-link:hover {
+  color: #1e90ff;
+}
+
+.item-latest-videos-link:active{
+  color: #1e90ff;
+  opacity: 0.6;
+}
+
+.statistics {
+  display: flex;
+  color: #888;
+  margin: 0;
+  padding: 0;
+}
+.statistics-left {
+  padding-right: 24px;
+  padding-left: 20px;
+  background-image: url(../img/clock.svg);
+  background-repeat: no-repeat;
+  background-size: 16px 16px;
+  background-position: left  center;
+}
+.statistics-right {
+
+  background-image: url(../img/glass.svg);
+  background-repeat: no-repeat;
+  background-size: 16px 16px;
+  background-position: left  center;
+}
+.wiew-more {
+  width: 492px;
+  padding-top: 12px;
+  padding-right: 12px;
+  padding-bottom: 12px;
+  padding-left: 12px;
+  justify-content: center;
+  align-items: center;
+  background-color: #1e90ff;
+  color: #fff;
+  font-weight: 700;
+  font-family: "Roboto Condensed", "Arial", sans-serif;
+}
+
+.wiew-more:hover{
+ opacity: 0.8;
+}
+
+.wiew-more:active{
+  opacity: 0.6;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media
+only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (   min--moz-device-pixel-ratio: 2),
+only screen and (     -o-min-device-pixel-ratio: 2/1),
+only screen and (        min-device-pixel-ratio: 2),
+only screen and (                min-resolution: 192dpi),
+only screen and (                min-resolution: 2dppx) {
+  .section-left-wrapper{
+    background-image: url(../img/background@2x.jpg);
+  }
+
+}
